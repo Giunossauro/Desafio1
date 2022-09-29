@@ -2,4 +2,4 @@
 Link: https://giunossauro.github.io/Desafio1/index.html
 
 ### Preview
-![preview](https://github.com/Giunossauro/Desafio1/tree/main/assets/img/preview.png)
+![preview](https://raw.githubusercontent.com/Giunossauro/Desafio1/main/assets/img/preview.png)
