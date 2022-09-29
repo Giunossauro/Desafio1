@@ -62,7 +62,6 @@ const toogleRun = () => {
 
     interval.push(setInterval(() => {
       difference = new Date(timeGoal - new Date().getTime());
-      console.log(timeGoal, " ", new Date().getTime(), " ", timeGoal - new Date().getTime());
       hours = String(Math.floor(difference / 360000));
       minutes = String(difference.getMinutes());
       seconds = String(difference.getSeconds());
@@ -99,6 +98,8 @@ const resetAll = () => {
   timeGoal = 0;
   goal = 0;
   elapsed = 0;
+  paused = false;
+  running = false;
   hoursElement.value = '0';
   minutesElement.value = '2';
   secondsElement.value = '0';
