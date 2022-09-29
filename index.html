@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Desafio</title>
+</head>
+<body class="container mt-3">
+  <header class="d-flex justify-content-center mt-3">
+    <h1 class="display-3">Desafio</h1>
+  </header>
+  <main class="d-flex justify-content-center mt-5">
+    <article class="w-75">
+      <section>
+        <h1 id="display-time" class="text-center display-6">00:00:00.000</h1>
+      </section>
+      <section>
+        <form>
+          <div class="d-flex flex-column mb-3">
+            <label for="hours-input" class="form-label text-center">Horas</label>
+            <input
+              id="hours-input"
+              class="form-control text-center"
+              type="text"
+              name="hours"
+              title="hours"
+              value="0"
+            >
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <label for="minutes-input" class="form-label text-center">Minutos</label>
+            <input
+              id="minutes-input"
+              class="form-control text-center"
+              type="text"
+              name="minutes"
+              title="minutes"
+              value="2"
+            >
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <label for="seconds-input" class="form-label text-center">Segundos</label>
+            <input
+              id="seconds-input"
+              class="form-control text-center"
+              type="text"
+              name="seconds"
+              title="seconds"
+              value="0"
+            >
+          </div>
+          <div class="d-flex justify-content-center pt-3 mb-3">
+            <input
+              id="toogle-btn"
+              type="button"
+              onclick="toogleRun();"
+              class="btn btn-secondary w-50 m-1"
+              value="Iniciar (I)"
+            >
+            <input
+              id="reset-btn"
+              type="button"
+              onclick="resetAll();"
+              class="btn btn-secondary w-50 m-1"
+              value="Resetar (R)"
+            >
+          </div>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer class="d-flex justify-content-center mt-5 display-6">Giuliano Mitteroheffer Morelli</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
